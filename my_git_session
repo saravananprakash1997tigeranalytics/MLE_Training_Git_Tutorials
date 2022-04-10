@@ -1,0 +1,882 @@
+Script started on 2022-02-20 20:33:52+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git init
+Reinitialized existing Git repository in /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   sample1.txt[m
+	[32mnew file:   sample2.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   sample1.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status -s
+[32mA[m[31mM[m sample1.txt
+[32mA[m  sample2.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git clone https://github.com/saravananprakash1997tigeranalytics/Repo_1.1_gitt_tutorials.git
+Cloning into 'Repo_1.1_gitt_tutorials'...
+remote: Enumerating objects: 77, done.[K
+remote: Counting objects:   1% (1/77)[Kremote: Counting objects:   2% (2/77)[Kremote: Counting objects:   3% (3/77)[Kremote: Counting objects:   5% (4/77)[Kremote: Counting objects:   6% (5/77)[Kremote: Counting objects:   7% (6/77)[Kremote: Counting objects:   9% (7/77)[Kremote: Counting objects:  10% (8/77)[Kremote: Counting objects:  11% (9/77)[Kremote: Counting objects:  12% (10/77)[Kremote: Counting objects:  14% (11/77)[Kremote: Counting objects:  15% (12/77)[Kremote: Counting objects:  16% (13/77)[Kremote: Counting objects:  18% (14/77)[Kremote: Counting objects:  19% (15/77)[Kremote: Counting objects:  20% (16/77)[Kremote: Counting objects:  22% (17/77)[Kremote: Counting objects:  23% (18/77)[Kremote: Counting objects:  24% (19/77)[Kremote: Counting objects:  25% (20/77)[Kremote: Counting objects:  27% (21/77)[Kremote: Counting objects:  28% (22/77)[Kremote: Counting objects:  29% (23/77)[Kremote: Counting objects:  31% (24/77)[Kremote: Counting objects:  32% (25/77)[Kremote: Counting objects:  33% (26/77)[Kremote: Counting objects:  35% (27/77)[Kremote: Counting objects:  36% (28/77)[Kremote: Counting objects:  37% (29/77)[Kremote: Counting objects:  38% (30/77)[Kremote: Counting objects:  40% (31/77)[Kremote: Counting objects:  41% (32/77)[Kremote: Counting objects:  42% (33/77)[Kremote: Counting objects:  44% (34/77)[Kremote: Counting objects:  45% (35/77)[Kremote: Counting objects:  46% (36/77)[Kremote: Counting objects:  48% (37/77)[Kremote: Counting objects:  49% (38/77)[Kremote: Counting objects:  50% (39/77)[Kremote: Counting objects:  51% (40/77)[Kremote: Counting objects:  53% (41/77)[Kremote: Counting objects:  54% (42/77)[Kremote: Counting objects:  55% (43/77)[Kremote: Counting objects:  57% (44/77)[Kremote: Counting objects:  58% (45/77)[Kremote: Counting objects:  59% (46/77)[Kremote: Counting objects:  61% (47/77)[Kremote: Counting objects:  62% (48/77)[Kremote: Counting objects:  63% (49/77)[Kremote: Counting objects:  64% (50/77)[Kremote: Counting objects:  66% (51/77)[Kremote: Counting objects:  67% (52/77)[Kremote: Counting objects:  68% (53/77)[Kremote: Counting objects:  70% (54/77)[Kremote: Counting objects:  71% (55/77)[Kremote: Counting objects:  72% (56/77)[Kremote: Counting objects:  74% (57/77)[Kremote: Counting objects:  75% (58/77)[Kremote: Counting objects:  76% (59/77)[Kremote: Counting objects:  77% (60/77)[Kremote: Counting objects:  79% (61/77)[Kremote: Counting objects:  80% (62/77)[Kremote: Counting objects:  81% (63/77)[Kremote: Counting objects:  83% (64/77)[Kremote: Counting objects:  84% (65/77)[Kremote: Counting objects:  85% (66/77)[Kremote: Counting objects:  87% (67/77)[Kremote: Counting objects:  88% (68/77)[Kremote: Counting objects:  89% (69/77)[Kremote: Counting objects:  90% (70/77)[Kremote: Counting objects:  92% (71/77)[Kremote: Counting objects:  93% (72/77)[Kremote: Counting objects:  94% (73/77)[Kremote: Counting objects:  96% (74/77)[Kremote: Counting objects:  97% (75/77)[Kremote: Counting objects:  98% (76/77)[Kremote: Counting objects: 100% (77/77)[Kremote: Counting objects: 100% (77/77), done.[K
+remote: Compressing objects:   2% (1/42)[Kremote: Compressing objects:   4% (2/42)[Kremote: Compressing objects:   7% (3/42)[Kremote: Compressing objects:   9% (4/42)[Kremote: Compressing objects:  11% (5/42)[Kremote: Compressing objects:  14% (6/42)[Kremote: Compressing objects:  16% (7/42)[Kremote: Compressing objects:  19% (8/42)[Kremote: Compressing objects:  21% (9/42)[Kremote: Compressing objects:  23% (10/42)[Kremote: Compressing objects:  26% (11/42)[Kremote: Compressing objects:  28% (12/42)[Kremote: Compressing objects:  30% (13/42)[Kremote: Compressing objects:  33% (14/42)[Kremote: Compressing objects:  35% (15/42)[Kremote: Compressing objects:  38% (16/42)[Kremote: Compressing objects:  40% (17/42)[Kremote: Compressing objects:  42% (18/42)[Kremote: Compressing objects:  45% (19/42)[Kremote: Compressing objects:  47% (20/42)[Kremote: Compressing objects:  50% (21/42)[Kremote: Compressing objects:  52% (22/42)[Kremote: Compressing objects:  54% (23/42)[Kremote: Compressing objects:  57% (24/42)[Kremote: Compressing objects:  59% (25/42)[Kremote: Compressing objects:  61% (26/42)[Kremote: Compressing objects:  64% (27/42)[Kremote: Compressing objects:  66% (28/42)[Kremote: Compressing objects:  69% (29/42)[Kremote: Compressing objects:  71% (30/42)[Kremote: Compressing objects:  73% (31/42)[Kremote: Compressing objects:  76% (32/42)[Kremote: Compressing objects:  78% (33/42)[Kremote: Compressing objects:  80% (34/42)[Kremote: Compressing objects:  83% (35/42)[Kremote: Compressing objects:  85% (36/42)[Kremote: Compressing objects:  88% (37/42)[Kremote: Compressing objects:  90% (38/42)[Kremote: Compressing objects:  92% (39/42)[Kremote: Compressing objects:  95% (40/42)[Kremote: Compressing objects:  97% (41/42)[Kremote: Compressing objects: 100% (42/42)[Kremote: Compressing objects: 100% (42/42), done.[K
+remote: Total 77 (delta 21), reused 64 (delta 13), pack-reused 0[K
+Unpacking objects:   1% (1/77)Unpacking objects:   2% (2/77)Unpacking objects:   3% (3/77)Unpacking objects:   5% (4/77)Unpacking objects:   6% (5/77)Unpacking objects:   7% (6/77)Unpacking objects:   9% (7/77)Unpacking objects:  10% (8/77)Unpacking objects:  11% (9/77)Unpacking objects:  12% (10/77)Unpacking objects:  14% (11/77)Unpacking objects:  15% (12/77)Unpacking objects:  16% (13/77)Unpacking objects:  18% (14/77)Unpacking objects:  19% (15/77)Unpacking objects:  20% (16/77)Unpacking objects:  22% (17/77)Unpacking objects:  23% (18/77)Unpacking objects:  24% (19/77)Unpacking objects:  25% (20/77)Unpacking objects:  27% (21/77)Unpacking objects:  28% (22/77)Unpacking objects:  29% (23/77)Unpacking objects:  31% (24/77)Unpacking objects:  32% (25/77)Unpacking objects:  33% (26/77)Unpacking objects:  35% (27/77)Unpacking objects:  36% (28/77)Unpacking objects:  37% (29/77)Unpacking objects:  38% (30/77)Unpacking objects:  40% (31/77)Unpacking objects:  41% (32/77)Unpacking objects:  42% (33/77)Unpacking objects:  44% (34/77)Unpacking objects:  45% (35/77)Unpacking objects:  46% (36/77)Unpacking objects:  48% (37/77)Unpacking objects:  49% (38/77)Unpacking objects:  50% (39/77)Unpacking objects:  51% (40/77)Unpacking objects:  53% (41/77)Unpacking objects:  54% (42/77)Unpacking objects:  55% (43/77)Unpacking objects:  57% (44/77)Unpacking objects:  58% (45/77)Unpacking objects:  59% (46/77)Unpacking objects:  61% (47/77)Unpacking objects:  62% (48/77)Unpacking objects:  63% (49/77)Unpacking objects:  64% (50/77)Unpacking objects:  66% (51/77)Unpacking objects:  67% (52/77)Unpacking objects:  68% (53/77)Unpacking objects:  70% (54/77)Unpacking objects:  71% (55/77)Unpacking objects:  72% (56/77)Unpacking objects:  74% (57/77)Unpacking objects:  75% (58/77)Unpacking objects:  76% (59/77)Unpacking objects:  77% (60/77)Unpacking objects:  79% (61/77)Unpacking objects:  80% (62/77)Unpacking objects:  81% (63/77)Unpacking objects:  83% (64/77)Unpacking objects:  84% (65/77)Unpacking objects:  85% (66/77)Unpacking objects:  87% (67/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  88% (68/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  89% (69/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  90% (70/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  92% (71/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  93% (72/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  94% (73/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  96% (74/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  97% (75/77), 6.24 KiB | 12.00 KiB/sUnpacking objects:  98% (76/77), 6.24 KiB | 12.00 KiB/sUnpacking objects: 100% (77/77), 6.24 KiB | 12.00 KiB/sUnpacking objects: 100% (77/77), 6.80 KiB | 11.00 KiB/s, done.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git clone https://github.com/saravananprakash1997tigeranalytics/Repo_1.1_gitt_tutorials.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[13Pstatus -s
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[32mA[m[31mM[m sample1.txt
+[32mA[m  sample2.txt
+[31m??[m Repo_1.1_gitt_tutorials/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ rmdir g[Kr[KRepo_1.1_gitt_tutorials/
+rmdir: failed to remove 'Repo_1.1_gitt_tutorials/': Directory not empty
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git diff
+[?1h=[1mdiff --git a/sample1.txt b/sample1.txt[m[m
+[1mindex a8f7e81..7cea9b0 100644[m[m
+[1m--- a/sample1.txt[m[m
+[1m+++ b/sample1.txt[m[m
+[36m@@ -1 +1 @@[m[m
+[31m-defkhdbkhdbvhdbeshfwdwfhlhoweijfoaiefjewofijweofijweofi[m[m
+[32m+[m[32mefewfernfbrfbhrfbdefkhdbkhdbvhdbeshfwdwfhlhoweijfoaiefjewofijweofijweofi[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git diff --srt[K[Ktaged
+[?1h=[1mdiff --git a/sample1.txt b/sample1.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..a8f7e81[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/sample1.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mdefkhdbkhdbvhdbeshfwdwfhlhoweijfoaiefjewofijweofijweofi[m[m
+[1mdiff --git a/sample2.txt b/sample2.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..93c0052[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/sample2.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mdskcnwejkfnewkjfnejkvnrekjrjrnkjernkjefnvrejkvrekjerkj[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git addd[K .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .diff --staged
+[?1h=[1mdiff --git a/sample1.txt b/sample1.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..7cea9b0[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/sample1.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mefewfernfbrfbhrfbdefkhdbkhdbvhdbeshfwdwfhlhoweijfoaiefjewofijweofijweofi[m[m
+[1mdiff --git a/sample2.txt b/sample2.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..93c0052[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/sample2.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mdskcnwejkfnewkjfnejkvnrekjrjrnkjernkjefnvrejkvrekjerkj[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit-m 'msg from the  local'
+git: 'commit-m' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit-tree
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit-m 'msg from the local'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C t-m 'msg from the local'[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[Ct-m 'msg from the [1Plocal'[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C -m 'msg from the local'[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[C
+
+[master 32f8413] msg from the local
+ 2 files changed, 2 insertions(+)
+ create mode 100644 sample1.txt
+ create mode 100644 sample2.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+fatal: remote origin already exists.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote set-url origin[K]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[40Pcommit -m 'msg from the local'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cset-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit push -u origin repo_test
+error: src refspec repo_test does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin repo_testremote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git
+fatal: remote origin already exists.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[46Ppush -u origin repo_test
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git
+fatal: remote origin already exists.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cset-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cset-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit o[Kpush -u origin repo_test
+error: src refspec repo_test does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git pull origin development
+fatal: couldn't find remote ref development
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git pull origin development
+fatal: couldn't find remote ref development
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git pull origin development[K[K[K[K[K[K[K[K[K[K[Krepo_test
+fatal: couldn't find remote ref repo_test
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git pull --rebase origin main[K[K[Kaster
+fatal: couldn't find remote ref master
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push origin main
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push origin mainll --rebase origin master[6Porigin repo_test
+fatal: couldn't find remote ref repo_test
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin master
+Username for 'https://github.com': saravananprakash1997tigerab nalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git/'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin masterll origin repo_testsh -u origin master
+Username for 'https://github.com': prakash       saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+remote: Permission to saravananprakash1997tigeranalytics/repo_test.git denied to saravananprakash1997tigeranalytics.
+fatal: unable to access 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git/': The requested URL returned error: 403
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin master
+Username for 'https://github.com': saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+remote: Permission to saravananprakash1997tigeranalytics/repo_test.git denied to saravananprakash1997tigeranalytics.
+fatal: unable to access 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git/': The requested URL returned error: 403
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+fatal: remote origin already exists.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[Cpush -u origin master[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cll origin repo_test[5Psh origin mainll --rebase origin master[6Porigin repo_testdevelopmentsh -u origin repo_testremote add origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cset-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cset-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[Cpush -u origin master[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Username for 'https://github.com': prak    saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git/'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ https://github.com/saravananprakash1997tigeranalytics/repo_test.git[42Pgit push -u origin master
+Username for 'https://github.com': saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+remote: Permission to saravananprakash1997tigeranalytics/repo_test.git denied to saravananprakash1997tigeranalytics.
+fatal: unable to access 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git/': The requested URL returned error: 403
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ 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[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push -u origin masterremote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[Cpush -u origin master[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Username for 'https://github.com': saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)Counting objects:  13% (2/15)Counting objects:  20% (3/15)Counting objects:  26% (4/15)Counting objects:  33% (5/15)Counting objects:  40% (6/15)Counting objects:  46% (7/15)Counting objects:  53% (8/15)Counting objects:  60% (9/15)Counting objects:  66% (10/15)Counting objects:  73% (11/15)Counting objects:  80% (12/15)Counting objects:  86% (13/15)Counting objects:  93% (14/15)Counting objects: 100% (15/15)Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads
+Compressing objects:   7% (1/13)Compressing objects:  15% (2/13)Compressing objects:  23% (3/13)Compressing objects:  30% (4/13)Compressing objects:  38% (5/13)Compressing objects:  46% (6/13)Compressing objects:  53% (7/13)Compressing objects:  61% (8/13)Compressing objects:  69% (9/13)Compressing objects:  76% (10/13)Compressing objects:  84% (11/13)Compressing objects:  92% (12/13)Compressing objects: 100% (13/13)Compressing objects: 100% (13/13), done.
+Writing objects:   6% (1/15)Writing objects:  13% (2/15)Writing objects:  20% (3/15)Writing objects:  26% (4/15)Writing objects:  33% (5/15)Writing objects:  40% (6/15)Writing objects:  46% (7/15)Writing objects:  53% (8/15)Writing objects:  60% (9/15)Writing objects:  66% (10/15)Writing objects:  73% (11/15)Writing objects:  80% (12/15)Writing objects:  86% (13/15)Writing objects:  93% (14/15)Writing objects: 100% (15/15)Writing objects: 100% (15/15), 1.29 KiB | 188.00 KiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), done.[K
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:[K
+remote:      https://github.com/saravananprakash1997tigeranalytics/repo_test/pull/new/master[K
+remote: 
+To https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin master[K[K[K[K[K[Kupbranch
+error: src refspec upbranch does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin upbranch
+error: src refspec upbranch does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin upbranch[2Pmasterupbranch[Kgit push -u origin upbranch[2Pmasterremote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cadd origin https://github.com/saravananprakash1997tigeranalytics[4P/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[C[C[C[C[C[C[C[Cset-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[Cpush -u origin master[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cupbranch
+error: src refspec upbranch does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin upbranch
+error: src refspec upbranch does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'bfbg'
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'bfbg'add .[Kpush -u origin upbranch
+error: src refspec upbranch does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin upbranch[7Pcommit -m 'bfbg'add .[Kpush -u origin upbranch[2Pmasterremote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[Cpush -u origin upbranch[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kupbranch
+error: src refspec upbranch does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin upbranchremote set-url origin https://github.com/saravananprakash1997tigeranalytics/repo_test.git[A]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ [C[C[C[Cpush -u origin upbranch[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pcommit -m 'bfbg'add .[Kpush -u origin upbranch[2Pmaster
+Username for 'https://github.com': ^C
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin master
+Username for 'https://github.com': ^C
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout -b upbranch
+Switched to a new branch 'upbranch'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout -b upbranchpush -u origin masterupbranch[2Pmaster[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kstatus
+On branch upbranch
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .[K[K[K[K[Kcommit -m 'msg'
+On branch upbranch
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'msg'[10Padd .statuscheckout -b upbranchstatus[K[1Padd .commit -m 'msg'[Kgit commit -m 'msg'[10Padd .commit -m 'msg'[10Padd .statuscheckout -b upbranchpush -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K status
+On branch upbranch
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status[Kgit statuscommit -m 'msg'[9Pstatuscommit -m 'msg'[10Padd .statuscheckout -b upbranchpush -u origin master[K[K[K[K[K[Kupbranch
+Username for 'https://github.com': sar   ^C
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nani[Ko fileup.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                   fileup.txt                                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dw[?12l[?25h[?25ld[?12l[?25h[?25lf[?12l[?25h[?25lw[?12l[?25h[?25lb[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25lj[?12l[?25h[?25lh[?12l[?25h[?25lv[?12l[?25h[?25lf[?12l[?25h[?25lb[?12l[?25h[?25lf[?12l[?25h[?25lh[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lh[?12l[?25h[?25lk[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lf[?12l[?25h[?25lh[?12l[?25h[?25lk[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lf[42d[K[2;27H[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lb[?12l[?25h[?25lf[?12l[?25h[?25ljk[?12l[?25h[?25le[?12l[?25h[?25lhb[?12l[?25h[?25lk[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: fileup.txt(B[m[42;31H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'msg'
+[upbranch 3c44e0a] msg
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fileup.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u orih[Kgin upbranch 
+Username for 'https://github.com': saravananprakash1997@t  tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+Enumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 310 bytes | 155.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+   32f8413..3c44e0a  upbranch -> upbranch
+Branch 'upbranch' set up to track remote branch 'upbranch' from 'origin'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin upbranch [K[K[K[K[K[K[K[K[Kmain
+error: src refspec main does not match any
+[31merror: failed to push some refs to 'https://github.com/saravananprakash1997tigeranalytics/repo_test.git'
+[m]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git branch 
+[?1h=  branch2[m[m
+  branch3[m[m
+  branch4[m[m
+  master[m[m
+* [32mupbranch[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git branch push -u origin main[K[K[K[Kbranch2
+Username for 'https://github.com': ^X  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                                        saravananprakash1997                    ^C
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nano branch2.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                  branch2.txt                                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dd[?12l[?25h[?25ls[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25lv[?12l[?25h[?25ld[?12l[?25h[?25lbn[?12l[?25h[?25lv[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25ld[?12l[?25h[?25lb[?12l[?25h[?25ln[?12l[?25h[?25ljk[?12l[?25h[?25ld[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25lke[42d[K[2;28H[?12l[?25h[?25lj[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25ln[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25ljk[?12l[?25h[?25lr[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: branch2.txt(B[m[42;32H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nano branch2.txtgit push -u origin branch2[10Pnano branch2.txt[Kgit add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+On branch upbranch
+Your branch is up to date with 'origin/upbranch'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch2.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'branch2 msg'
+[upbranch da5fad7] branch2 msg
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch2.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin branch2
+Username for 'https://github.com': saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+Total 0 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'branch2' on GitHub by visiting:[K
+remote:      https://github.com/saravananprakash1997tigeranalytics/repo_test/pull/new/branch2[K
+remote: 
+To https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+ * [new branch]      branch2 -> branch2
+Branch 'branch2' set up to track remote branch 'branch2' from 'origin'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout branch3
+Switched to branch 'branch3'
+Your branch is up to date with 'origin/branch3'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nano [K[K[K[K[Kgit status
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nano branch3.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                  branch3.txt                                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dw[?12l[?25h[?25lv[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lb[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lbn[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25lre[?12l[?25h[?25lk[42d[K[2;27H[?12l[?25h[?25lv[?12l[?25h[?25lj[?12l[?25h[?25lre[?12l[?25h[?25ln[?12l[?25h[?25lv[?12l[?25h[?25lk[?12l[?25h[?25llj[?12l[?25h[?25ld[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25lv[?12l[?25h[?25ll[?12l[?25h[?25lrd[?12l[?25h[?25l[3d[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25lr[?12l[?25h[?25lj[?12l[?25h[?25ln[?12l[?25h[?25lfv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25lf[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25ler[?12l[?25h[?25lkj[?12l[?25h[?25lr[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lv[?12l[?25h[?25ljk[?12l[?25h[?25lf[?12l[?25h[?25ln[?12l[?25h[?25lv[?12l[?25h[?25lr[?12l[?25h[?25llk[?12l[?25h[?25lj[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25lr[?12l[?25h[?25lj[?12l[?25h[?25ll[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: branch3.txt(B[m[42;32H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 2 lines ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add branch3.txt 
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'sdfger'
+[branch3 bda5891] sdfger
+ 1 file changed, 2 insertions(+)
+ create mode 100644 branch3.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git push -u origin branch3
+Username for 'https://github.com': saravananprakash1997tigeranalytics
+Password for 'https://saravananprakash1997tigeranalytics@github.com': 
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  16% (1/6)Compressing objects:  33% (2/6)Compressing objects:  50% (3/6)Compressing objects:  66% (4/6)Compressing objects:  83% (5/6)Compressing objects: 100% (6/6)Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 613 bytes | 204.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'branch3' on GitHub by visiting:[K
+remote:      https://github.com/saravananprakash1997tigeranalytics/repo_test/pull/new/branch3[K
+remote: 
+To https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+ * [new branch]      branch3 -> branch3
+Branch 'branch3' set up to track remote branch 'branch3' from 'origin'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ 
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ 
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ 
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ 
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git be[Kranch
+[?1h=  branch2[m[m
+* [32mbranch3[m[m
+  branch4[m[m
+  master[m[m
+  upbranch[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git [K[K[K[Knano filesam.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                  filesam.txt                                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dw[?12l[?25h[?25le[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25ld[?12l[?25h[?25lw[?12l[?25h[?25ljk[?12l[?25h[?25lc[?12l[?25h[?25led[?12l[?25h[?25lb[?12l[?25h[?25le[?12l[?25h[?25lh[?12l[?25h[?25lb[?12l[?25h[?25ld[?12l[?25h[?25lkj[?12l[?25h[?25lc[?12l[?25h[?25ljk[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: filesam.txt(B[m[42;32H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ cat g[Kfilesam.txt 
+wekjdwjkcedbehbdkjcjk
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status -a [K[K[K[K[K[K[K[K[K[Kcommit -a -m 'gfdgv rgfrdfgv'
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -a -m 'gfdgv rgfrdfgv'
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -a -m 'gfdgv rgfrdfgv'
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -a -m 'gfdgv rgfrdfgv'
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -a -m 'gfdgv rgfrdfgv'
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -a -m 'gfdgv rgfrdfgv'[17Pcat filesam.txt nano filesam.txt[6Pgit branchpush -u origin branch3branch[Knano filesam.txtcat filesam.txt git commit -a -m 'gfdgv rgfrdfgv'[Kgit commit -a -m 'gfdgv rgfrdfgv'
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git restore --staged filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git restore --staged filesam.txtadd .[Kcommit -a -m 'gfdgv rgfrdfgv'[17Pcat filesam.txt nano filesam.txt[6Pgit branchpush -u origin branch3[4Pcommit -m 'sdfger'[2Padd branch3.txt [4Pnano branch3.txt[6Pgit status
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git log
+[?1h=[33mcommit bda5891713a2867a3d8398de7b819e4ac9e222e9[m[33m ([m[1;36mHEAD -> [m[1;32mbranch3[m[33m, [m[1;31morigin/branch3[m[33m)[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Sun Feb 20 21:29:34 2022 +0530[m
+[m
+    sdfger[m
+[m
+[33mcommit f757829e1c198eaf2107cb53c78d74610dd9feee[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 18:09:58 2022 +0530[m
+[m
+    dfvef[m
+[m
+[33mcommit 434b7c641d976fee5e7c577d285feb2874efbd7f[m[33m ([m[1;31morigin/branch2[m[33m, [m[1;32mbranch2[m[33m)[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 17:34:48 2022 +0530[m
+[m
+    new branch[m
+[m
+[33mcommit 9db8eb9f0e2e852fe60a1f85591d594a1496e239[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 17:14:12 2022 +0530[m
+[m
+    new file file4[m
+[m
+[33mcommit 7061ec6a0a8fdfed0135142c7149b144ad50cfd8[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 16:55:59 2022 +0530[m
+[m
+    recall push[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git logstatus[3Plog
+[?1h=[33mcommit bda5891713a2867a3d8398de7b819e4ac9e222e9[m[33m ([m[1;36mHEAD -> [m[1;32mbranch3[m[33m, [m[1;31morigin/branch3[m[33m)[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Sun Feb 20 21:29:34 2022 +0530[m
+[m
+    sdfger[m
+[m
+[33mcommit f757829e1c198eaf2107cb53c78d74610dd9feee[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 18:09:58 2022 +0530[m
+[m
+    dfvef[m
+[m
+[33mcommit 434b7c641d976fee5e7c577d285feb2874efbd7f[m[33m ([m[1;31morigin/branch2[m[33m, [m[1;32mbranch2[m[33m)[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 17:34:48 2022 +0530[m
+[m
+    new branch[m
+[m
+[33mcommit 9db8eb9f0e2e852fe60a1f85591d594a1496e239[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 17:14:12 2022 +0530[m
+[m
+    new file file4[m
+[m
+[33mcommit 7061ec6a0a8fdfed0135142c7149b144ad50cfd8[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 16:55:59 2022 +0530[m
+[m
+    recall push[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git log --since=2[K 1day
+fatal: ambiguous argument '1day': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git log --since= 1day day
+fatal: ambiguous argument '1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git log --since= 1 day[K[K[K[K.day
+fatal: ambiguous argument '1.day': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mfilesam.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .status
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ commit -m 'undo'
+commit: command not found
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ commit -m 'undo'[1@g[1@i[1@t[1@ 
+[branch3 7c270f2] undo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'undo'[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+commit: command not found
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ commit -m 'undo'[4@git [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pgit statuscommit -m 'undo'[6Pgit status
+On branch branch3
+Your branch is ahead of 'origin/branch3' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git statuscommit -m 'undo'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;76H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                         /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG                                    [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[mundo[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Sun Feb 20 22:59:08 2022 +0530[8d#[9d# On branch branch3[10d# Your branch is ahead of 'origin/branch3' by 1 commit.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       new file:   filesam.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2duundou[?12l[?25h[?25lundo[K[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG(B[m[42;114H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Cancelled ](B[m[K[43;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG(B[m[42;114H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 14 lines ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l[K[branch3 1b7d35c] undo
+ Date: Sun Feb 20 22:59:08 2022 +0530
+ 1 file changed, 1 insertion(+)
+ create mode 100644 filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit --amend[8Pstatus
+On branch branch3
+Your branch is ahead of 'origin/branch3' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git statuscommit --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;76H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                         /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG                                    [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[mundo[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Sun Feb 20 22:59:08 2022 +0530[8d#[9d# On branch branch3[10d# Your branch is ahead of 'origin/branch3' by 1 commit.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       new file:   filesam.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l[K[branch3 b403f99] undo
+ Date: Sun Feb 20 22:59:08 2022 +0530
+ 1 file changed, 1 insertion(+)
+ create mode 100644 filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit --amend[8Pstatus
+On branch branch3
+Your branch is ahead of 'origin/branch3' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git statuscommit --amend[8Pstatus[Kgit statuscommit --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;76H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                         /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG                                    [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[mundo[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Sun Feb 20 22:59:08 2022 +0530[8d#[9d# On branch branch3[10d# Your branch is ahead of 'origin/branch3' by 1 commit.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       new file:   filesam.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[42d[K[43;2H(B[0;7mL(B[m Refresh[18X[43;29H(B[0;7m^W(B[m Where Is[17X[43;57H(B[0;7mM-Q(B[m Previous      [81G    (B[0;7m^P(B[m Prev Line        [43;113H(B[0;7m^Y(B[m Prev Page[16X[43;141H(B[0;7mM-\(B[m First Line[K[44;4HClose[44;17H            (B[0;7m^Q(B[m Where Was  [49G        (B[0;7mM-W(B[m Next[20X[44;85H(B[0;7m^N(B[m Next Line        [44;113H(B[0;7m^V(B[m Next Page[16X[44;141H(B[0;7mM-/(B[m Last Line[42d[1;3H(B[0;7m            [1;40H                                    Main nano help text                                      [167G(B[m[2d[39;49m(B[m The nano editor is designed to emulate the functionality and ease-of-use[3d of the UW Pico text editor.  There are four main sections of the editor.[4d The top line shows the program version, the current filename being[5d edited, and whether or not the file has been modified.  Next is the main[6d editor window showing the file being edited.  The status line is the[7d third line from the bottom and shows important messages.  The bottom two[8d lines show the most commonly used shortcuts in the editor.[9d[K[10d Shortcuts are written as follows: Control-key sequences are notated with[11d a (B[0;1m[31m'^'[39m(B[m and can be entered either by using the Ctrl key or pressing the Esc[12d key twice.  Meta-key sequences are notated with (B[0;1m[31m'M-'[39m(B[m and can be entered[13d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[14d Also, pressing Esc twice and then typing a three-digit decimal number[15d from 000 to 255 will enter the character with the corresponding value.[16d The following keystrokes are available in the main editor window.[17d Alternative keys are shown in parentheses:[19d[36m^G[39m(B[m     ([36mF1[39m(B[m)[18GDisplay this help text[20d[36m^X[39m(B[m     ([36mF2[39m(B[m)[18GClose the current buffer / Exit from nano[21d[36m^O[39m(B[m     ([36mF3[39m(B[m)[18GWrite the current buffer (or the marked region) to disk[22d[36m^R[39m(B[m     ([36mIns[39m(B[m)     Insert another file into current buffer (or into new buffer)[24d[36m^W[39m(B[m     ([36mF6[39m(B[m)[18GSearch forward for a string or a regular expression[25d[36m^\[39m(B[m     ([36mM-R[39m(B[m)     Replace a string or a regular expression[26d[36m^K[39m(B[m     ([36mF9[39m(B[m)[18GCut current line (or marked region) and store it in cutbuffer[27d[36m^U[39m(B[m     ([36mF10[39m(B[m)     Paste the contents of cutbuffer at current cursor position[29d[36m^J[39m(B[m     ([36mF4[39m(B[m)[18GJustify the current paragraph[30d[36m^T[39m(B[m     ([36mF12[39m(B[m)     Invoke the spell checker, if available[32d[36m^C[39m(B[m     ([36mF11[39m(B[m)     Display the position of the cursor[33d[36m^_[39m(B[m     ([36mM-G[39m(B[m)     Go to line and column number[35d[36mM-U[35;18H[39m(B[mUndo the last operation[36d[36mM-E[36;18H[39m(B[mRedo the last undone operation[38d[36mM-A[39m(B[m    ([36m^6[39m(B[m)[18GMark text starting from the cursor position[39d[36mM-6[39m(B[m    ([36mM-^[39m(B[m)     Copy current line (or marked region) and store it in cutbuffer[41d[36mM-][41;18H[39m(B[mGo to the matching bracket[2d[43;2H(B[0;7mG(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos      (B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44;4HExit [44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[K[42d[1;3H(B[0;7mGNU nano 4.8[1;40H/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG[167G(B[m[2d[39;49m(B[mundo[K[3d[K[4d[36m# Please enter the commit message for your changes. Lines starting[39m(B[m[K[5d[36m# with '#' will be ignored, and an empty message aborts the commit.[39m(B[m[K[6d[36m#[39m(B[m[K[7d[36m# Date:      Sun Feb 20 22:59:08 2022 +0530[39m(B[m[K[8d[36m#[39m(B[m[K[9d[36m# On branch branch3[10d# Your branch is ahead of 'origin/branch3' by 1 commit.[39m(B[m[K[11d[36m#   (use "git push" to publish your local commits)[39m(B[m[K[12d[36m#[39m(B[m[K[13d[36m# Changes to be committed:[39m(B[m[K[14d[36m#       new file:   filesam.txt[39m(B[m[K[15d[36m#[39m(B[m[K[16d[K[17d[K[19d[K[20d[K[21d[K[22d[K[24d[K[25d[K[26d[K[27d[K[29d[K[30d[K[32d[K[33d[K[35d[K[36d[K[38d[K[39d[K[41d[K[2d[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dmundom[?12l[?25h[?25lmmundomm[?12l[?25h[?25lmmmundo[?12l[?25h[?25lmmmmundo[?12l[?25h[?25lmmmmmundo[?12l[?25h[?25lmmmmmmundo[?12l[?25h[?25l[7Gmundo[?12l[?25h[?25l[8Gmundo[?12l[?25h[?25l[2;9Hmundo[?12l[?25h[?25l[2;10Hmundo[?12l[?25h[?25l[2;11Hmundo[?12l[?25h[?25l[2;12Hmundo[?12l[?25h[?25l[2;13Hmundo[?12l[?25h[?25l[2;14Hmundo[?12l[?25h[?25l[2;15Hmundo[?12l[?25h[?25l[2;16Hmundo[?12l[?25h[?25l[2;17Hmundo[?12l[?25h[?25luundo[?12l[?25h[?25lmundo[?12l[?25h[?25luundo[?12l[?25h[?25lMundo[?12l[?25h[?25lUundo[?12l[?25h[?25lmundo[?12l[?25h[?25lundo[K[?12l[?25h[?25lundo[K[?12l[?25h[?25lundo[K[?12l[?25h[?25lundo[K[?12l[?25h[?25lundo[K[?12l[?25h[?25lundo[K[?12l[?25h[?25l[1P[2;17H[?12l[?25h[?25l[1P[2;16H[?12l[?25h[?25l[1P[2;15H[?12l[?25h[?25l[1P[2;14H[?12l[?25h[?25l[1P[2;13H[?12l[?25h[?25l[1P[2;12H[?12l[?25h[?25l[1P[2;11H[?12l[?25h[?25l[1P[2;10H[?12l[?25h[?25l[1P[2;9H[?12l[?25h[?25l[1P[8G[?12l[?25h[?25l[1P[7G[?12l[?25h[?25l[1P[6G[?12l[?25h[?25l[1Pmmmm[?12l[?25h[?25l[1Pmmm[?12l[?25h[?25l[1Pmm[?12l[?25h[?25lmundo[Km[?12l[?25h[?25lundo[K[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[Aundo[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG(B[m[42;114H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;76H(B[0;7m[ Wrote 14 lines ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l[KAborting commit due to empty commit message.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit --amend[8Pstatus
+On branch branch3
+Your branch is ahead of 'origin/branch3' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git add .status
+On branch branch3
+Your branch is ahead of 'origin/branch3' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status[1Padd .statuscommit --amend
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;76H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m  GNU nano 4.8                         /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training/.git/COMMIT_EDITMSG                                    [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[mundo[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Sun Feb 20 22:59:08 2022 +0530[8d#[9d# On branch branch3[10d# Your branch is ahead of 'origin/branch3' by 1 commit.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#       new file:   filesam.txt[15d#[2d[39m(B[m[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l[K[branch3 a5a4e84] undo
+ Date: Sun Feb 20 22:59:08 2022 +0530
+ 1 file changed, 1 insertion(+)
+ create mode 100644 filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit --amend[Kgit reset --soft HEAD~1
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git reset --soft HEAD~1[5Pcommit --amend[8Pstatus
+On branch branch3
+Your branch is up to date with 'origin/branch3'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git reset --soft HEAD~1status[Kreset --soft HEAD~1
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git reset --soft HEAD~1status[K
+On branch branch3
+Your branch is behind 'origin/branch3' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nano filesam.txt 
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;77H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                                                                  filesam.txt                                                                             [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[mwekjdwjkcedbehbdkjcjk[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dwwekjdwjkcedbehbdkjcjkw[?12l[?25h[?25ldwekjdwjkcedbehbdkjcjkwd[?12l[?25h[?25lewekjdwjkcedbehbdkjcjkwde[?12l[?25h[?25lswekjdwjkcedbehbdkjcjk[5G[?12l[?25h[?25lfwekjdwjkcedbehbdkjcjk[6G[?12l[?25h[?25lhwekjdwjkcedbehbdkjcjk[7G[?12l[?25h[?25lewekjdwjkcedbehbdkjcjk[8G[?12l[?25h[?25lfwekjdwjkcedbehbdkjcjk[2;9H[?12l[?25h[?25lbwekjdwjkcedbehbdkjcjk[2;10H[?12l[?25h[?25lewekjdwjkcedbehbdkjcjk[2;11H[?12l[?25h[?25ldwekjdwjkcedbehbdkjcjk[2;12H[?12l[?25h[?25lhwekjdwjkcedbehbdkjcjk[2;13H[?12l[?25h[?25lfbwekjdwjkcedbehbdkjcjk[2;15H[?12l[?25h[?25lewekjdwjkcedbehbdkjcjk[2;16H[?12l[?25h[?25lhwekjdwjkcedbehbdkjcjk[2;17H[?12l[?25h[?25ljwekjdwjkcedbehbdkjcjk[2;18H[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: filesam.txt(B[m[42;32H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ nano filesam.txt [7Pgit status
+On branch branch3
+Your branch is behind 'origin/branch3' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git restore filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git restore filesam.txtstatus[K
+On branch branch3
+Your branch is behind 'origin/branch3' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git statusrestore filesam.txtstatus[K[Kgit statusrestore filesam.txtstatus[K[Kgit statusrestore filesam.txtstatus[K[Kgit remote -v
+origin	https://github.com/saravananprakash1997tigeranalytics/repo_test.git (fetch)
+origin	https://github.com/saravananprakash1997tigeranalytics/repo_test.git (push)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git fetch https://github.com/saravananprakash1997tigeranalytics/repo_test.git
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 613 bytes | 38.00 KiB/s, done.
+From https://github.com/saravananprakash1997tigeranalytics/repo_test
+ * branch            HEAD       -> FETCH_HEAD
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote rename repo_test rep_tr[Kest
+fatal: No such remote: 'repo_test'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote rename repo_test rep_test[C[C[K[K[K[K[K[K[K[K[C[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[1P[1P[1P[C[1P[1P[1P[1P[C[1P [1P r e m o v e [C b r a n c h 3 
+fatal: No such remote: 'branch3'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote  remove branch3 [K[K2
+fatal: No such remote: 'branch2'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git remote  remove branch2[K[K[K[K[K[K[Krepo_test
+fatal: No such remote: 'repo_test'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git tag
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git show
+[?1h=[33mcommit f757829e1c198eaf2107cb53c78d74610dd9feee[m[33m ([m[1;36mHEAD -> [m[1;32mbranch3[m[33m)[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Tue Feb 15 18:09:58 2022 +0530[m
+[m
+    dfvef[m
+[m
+[1mdiff --git a/branch3file1.txt b/branch3file1.txt[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..bd94b30[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/branch3file1.txt[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mdvbjkvejvkerkjerkjrebvkjrevejrkvhreuvhregiurehvuireh[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ $ git config --global alias.unstage 'reset HEAD --'
+$: command not found
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ $ git config --global alias.unstage 'reset HEAD --'[C[1P
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ $ git config --global alias.unstage 'reset HEAD --'git show[K[1Ptag[K[K[Kstatus
+On branch branch3
+Your branch is behind 'origin/branch3' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git branch
+[?1h=  branch2[m[m
+* [32mbranch3[m[m
+  branch4[m[m
+  master[m[m
+  upbranch[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git [K[K[K[Kgit branch[K[K[K[K[K[K[K[K[K[Kgit checkout -d branch3
+A	branch3.txt
+A	filesam.txt
+HEAD is now at f757829 dfvef
+Your branch is behind 'origin/branch3' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+[31mHEAD detached at [mrefs/heads/branch3
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout branch2
+A	branch3.txt
+A	filesam.txt
+Previous HEAD position was f757829 dfvef
+Switched to branch 'branch2'
+Your branch is up to date with 'origin/branch2'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout branch2[10Pstatus
+On branch branch2
+Your branch is up to date with 'origin/branch2'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ gi [Kt checkout -d upbranch 
+A	branch3.txt
+A	filesam.txt
+HEAD is now at da5fad7 branch2 msg
+Your branch is ahead of 'origin/upbranch' by 1 commit.
+  (use "git push" to publish your local commits)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout -d upbranch status[K[K[K[K[K[K[Kbranch
+[?1h=* [32m(HEAD detached at refs/heads/upbranch)[m[m
+  branch2[m[m
+  branch3[m[m
+  branch4[m[m
+  master[m[m
+  upbranch[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git branchcheckout -d upbranch 
+A	branch3.txt
+A	filesam.txt
+HEAD is now at da5fad7 branch2 msg
+Your branch is ahead of 'origin/upbranch' by 1 commit.
+  (use "git push" to publish your local commits)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+[31mHEAD detached at [mrefs/heads/upbranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   branch3.txt[m
+	[32mnew file:   filesam.txt[m
+
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git commit -m 'degfed'
+[detached HEAD 6cac41d] degfed
+ 2 files changed, 3 insertions(+)
+ create mode 100644 branch3.txt
+ create mode 100644 filesam.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+[31mHEAD detached from [mrefs/heads/upbranch
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git status
+[31mHEAD detached from [mrefs/heads/upbranch
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout upbranch
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  6cac41d degfed
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> 6cac41d
+
+Switched to branch 'upbranch'
+Your branch is ahead of 'origin/upbranch' by 1 commit.
+  (use "git push" to publish your local commits)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ git checkout upbranch[11Pstatus
+On branch upbranch
+Your branch is ahead of 'origin/upbranch' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/gitcommand_tutorials_MLE_Training[00m$ cd ..
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ mkdir git [K_MLE_@[K2
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ git init 
+Initialized empty Git repository in /mnt/c/Users/prakash.saravana/Documents/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mAPI Files  Folder/[m
+	[31mAzure_AD_Authentication/[m
+	[31mFastAPI_Flask_Authentication_Replication/[m
+	[31mMy Music[m
+	[31mMy Pictures[m
+	[31mMy Videos[m
+	[31mTo change the password.txt[m
+	[31mblob_storage_access.py[m
+	[31mdesktop.ini[m
+	[31mdjango_tutorials/[m
+	[31menvironment_folder/[m
+	[31mfastapi_tutorials/[m
+	[31mflask_tutorials/[m
+	[31mgitcommand_tutorials_MLE_Training/[m
+	[31mhost_environment/[m
+	[31mplaying_with_deltatables.py[m
+	[31mqep_project/[m
+	[31mqep_turing_api_implementation/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ cd git_MLE_2/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/prakash.saravana/Documents/git_MLE_2/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git branch dev
+fatal: Not a valid object name: 'master'.
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git branch dev[1P dev[1P dev[1P dev[1P dev[1P dev[1P devc devh deve devc devk devo devu devt dev[C dev- devb dev
+Switched to a new branch 'dev'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git checkout -b dev[5Pbranch[C[C[C[C[5@checkout -b[C[C[C[C[Kgit status
+On branch dev
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git checkout master[9Pstatus
+On branch dev
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git status[K[K[K[K[K[Kbranch
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git branch
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git branchstatus[K[K[K[K[K[Kcheckout -b b[Ktest
+Switched to a new branch 'test'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git checkout -b test[10Pbranch
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git [K[Kt init
+Reinitialized existing Git repository in /mnt/c/Users/prakash.saravana/Documents/git_MLE_2/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git initbranch
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git branch[2Pinitbranch[K[K[K[K[K[K[K checkout -d branch[K[K[K[K[K[Kdev
+fatal: git checkout: --detach does not take a path argument 'dev'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git checkout -d dev[9Pbranch[2Pinitbranchcheckout -b test[10Pbranchstatus
+On branch test
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ git branch
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/git_MLE_2[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/git_MLE_2[00m$ cd ,,[K[K..
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ git branch 
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ mkdir dummy_vcs
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ g[Kcd dummy_vcs/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/prakash.saravana/Documents/dummy_vcs/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git branch
+[?1h=[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ ]git [K[K[K[K[Knana[Ko file1.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                   file1.txt                                                                              [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2dd[?12l[?25h[?25ljk[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25ln[?12l[?25h[?25lv[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: file1.txt(B[m[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git addd [K[K .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git commit -m 'msg'
+[master (root-commit) 7b78956] msg
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git branch
+[?1h=* [32mmaster[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git checkout dev
+error: pathspec 'dev' did not match any file(s) known to git
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git checkout dev dev-devbdev dev
+Switched to a new branch 'dev'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git checkout  -b dev[K[K[K[K[K[Kmaster
+Switched to branch 'master'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git checkout  master[K[K[K[K[K[K-d dev
+HEAD is now at 7b78956 msg
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git c[Kstatus
+[31mHEAD detached at [mrefs/heads/dev
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ git check[K[K[K[K[Kbranch
+[?1h=* [32m(HEAD detached at refs/heads/dev)[m[m
+  dev[m[m
+  master[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/dummy_vcs[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/dummy_vcs[00m$ cd ..
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ rm [Kdir dummy_vcs/
+rmdir: failed to remove 'dummy_vcs/': Directory not empty
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ mkdir vcs_folder
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents[00m$ g[Kcd vcs_folder/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git init
+Initialized empty Git repository in /mnt/c/Users/prakash.saravana/Documents/vcs_folder/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ it add .[K[K[K[K[K[K[K[Kgit add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git init
+Reinitialized existing Git repository in /mnt/c/Users/prakash.saravana/Documents/vcs_folder/.git/
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git stuas
+git: 'stuas' is not a git command. See 'git --help'.
+
+The most similar command is
+	stash
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git stuas[K[K[Katus
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ nano file1.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;79H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                                                   file1.txt                                                                              [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[m[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2ds[?12l[?25h[?25ld[?12l[?25h[?25lf[?12l[?25h[?25lk[?12l[?25h[?25lnw[?12l[?25h[?25ld[?12l[?25h[?25lk[?12l[?25h[?25lj[?12l[?25h[?25lj[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[42d[K[2d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: file1.txt(B[m[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git commit -m 'msg'
+[master (root-commit) d78fb09] msg
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git checkout dev [C[1@ [1@-[1@b
+Switched to a new branch 'dev'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ nano fil[K[K[Kfile1.txt
+[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;78H(B[0;7m[ Reading... ](B[m[42;77H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                                                                   file1.txt                                                                              [1;167H(B[m[43d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[43;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[44d(B[0;7m^X(B[m Exit[44;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[44;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[42d[2d[39;49m(B[mfile1 master[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[1;159H(B[0;7mModified(B[m[2;14H[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [42d[K[2;15H[?12l[?25h[?25l [?12l[?25h[?25l,[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l1[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lv[?12l[?25h[?25l[42d(B[0;7mSave modified buffer?                                                                                                                                                   [43;1H Y(B[m Yes[K[44d(B[0;7m N(B[m No  [44;18H(B[0;7mC(B[m Cancel[K[42;23H[?12l[?25h[?25l[43d(B[0;7m^G(B[m Get Help[43;43H(B[0;7mM-D(B[m DOS Format[43;85H(B[0;7mM-A(B[m Append[43;127H(B[0;7mM-B(B[m Backup File[44d(B[0;7m^C(B[m Cancel[17G         [44;43H(B[0;7mM-M(B[m Mac Format[44;85H(B[0;7mM-P(B[m Prepend[44;127H(B[0;7m^T(B[m To Files[42d(B[0;7mFile Name to Write: file1.txt(B[m[42;30H[?12l[?25h[?25l[42;77H[1K (B[0;7m[ Writing... ](B[m[K[1;159H(B[0;7m        (B[m[42;77H(B[0;7m[ Wrote 1 line ](B[m[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git add .
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git commit -m 'fil1[Ke1 dev'
+[dev ed3cf79] file1 dev
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ g[Kcat file1.txt 
+file1 master , file1 dev
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ g[Kgit ma[K[Kcheckout master
+Switched to branch 'master'
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git checkout master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmerge dev
+Updating d78fb09..ed3cf79
+Fast-forward
+ file1.txt | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git log
+[?1h=[33mcommit ed3cf79005434fa6deac4a161abed0bfa1f3ad29[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mdev[m[33m)[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Sun Feb 20 23:53:02 2022 +0530[m
+[m
+    file1 dev[m
+[m
+[33mcommit d78fb09a05545ad71c3de9d75286f6cfe28b19a4[m[m
+Author: saravananprakash1997tigeranalytics <prakash.saravana@tigeranalytics.com>[m
+Date:   Sun Feb 20 23:52:04 2022 +0530[m
+[m
+    msg[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ g[Kgit branch
+[?1h=  dev[m[m
+* [32mmaster[m[m
+[K[?1l>]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ cat file1.txt 
+file1 master , file1 dev
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER01880[00m:[01;34m/mnt/c/Users/prakash.saravana/Documents/vcs_folder[00m$ git status
+On branch master
+nothing to commit, working tree clean
+]0;prakash@TIGER01880: /mnt/c/Users/prakash.saravana/Documents/vcs_folder[01;32mprakash@TIGER
